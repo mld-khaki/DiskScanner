@@ -1,3 +1,32 @@
+# -----------------------------------------------------------------------------
+# File Name: drivescanner.py
+# Author: Milad Khaki
+# Date: June 4, 2024
+# Description:
+# This script recursively scans a specified directory, collecting detailed
+# information about files and folders, including file names, creation times,
+# modification times, sizes, attributes, and more. It saves the data in an
+# Excel file with a tabbed representation of the directory structure.
+#
+# Features:
+# - Recursive directory scanning
+# - Collection of file and folder details
+# - Metadata extraction for images, audio, and video files
+# - Text preview for text files
+# - Progress display during scanning
+#
+# Requirements:
+# - Python 3.6+
+# - pandas
+# - pywin32
+# - Pillow
+# - mutagen
+# - tqdm
+#
+# License:
+# This project is licensed under the MIT License.
+# -----------------------------------------------------------------------------
+
 import os
 import pandas as pd
 from datetime import datetime
